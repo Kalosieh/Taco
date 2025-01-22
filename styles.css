@@ -1,0 +1,48 @@
+/* Reset default margins */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    cursor: none; /* Hide default cursor */
+
+
+}
+
+
+
+body {
+
+    background: url('background.jpg') no-repeat center center fixed;
+
+    background-size: cover;
+
+    height: 100vh;
+
+    overflow: hidden;
+
+}
+
+
+
+/* Small taco that follows the cursor */
+
+#cursor-taco {
+
+    width: 32px;
+
+    height: 32px;
+
+    background: url('taco.png') no-repeat center center;
+
+    background-size: contain;
+
+    position: absolute;
+
+    pointer-events: none;
+
+}
